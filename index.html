@@ -1,1 +1,58 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="education-screen" class="container hidden">
+        <h1>QR Code Safety: What You Should Know</h1>
+        
+        <div class="alert alert-success" id="survey-complete">Thank you for completing the survey! Your responses have been recorded.</div>
+        
+        <p>QR codes have become ubiquitous in our daily lives, offering convenience and contactless solutions. However, they also pose potential security risks that many people are unaware of.</p>
+        
+        <div class="risk-section">
+            <h2>Common QR Code Risks</h2>
+            
+            <div class="risk-item">
+                <h3>1. Malicious URL Redirection</h3>
+                <p>QR codes can direct users to phishing websites designed to steal personal information or login credentials. Since the actual URL is not visible before scanning, it's easy to be redirected to malicious sites.</p>
+            </div>
+            
+            <div class="risk-item">
+                <h3>2. Automatic Actions</h3>
+                <p>Some QR codes are programmed to automatically perform actions such as initiating phone calls, sending text messages, or adding calendar events without explicit user consent.</p>
+            </div>
+            
+            <div class="risk-item">
+                <h3>3. Malware Distribution</h3>
+                <p>Scanning a malicious QR code might trigger a download of malware, ransomware, or other harmful software to your device.</p>
+            </div>
+            
+            <div class="risk-item">
+                <h3>4. Payment Fraud</h3>
+                <p>Fraudsters may replace legitimate payment QR codes with their own to redirect funds to their accounts.</p>
+            </div>
+        </div>
+        
+        <h2>Safety Tips for Scanning QR Codes</h2>
+        <ul>
+            <li>Inspect the QR code before scanning for tampering or overlay stickers</li>
+            <li>Use a QR scanner app that shows the URL before opening it</li>
+            <li>Be cautious with QR codes in public places or from unknown sources</li>
+            <li>Check if the URL looks legitimate before proceeding</li>
+            <li>Avoid providing personal information on websites accessed via QR codes unless you're certain they're trustworthy</li>
+            <li>Keep your phone's operating system and apps updated</li>
+            <li>Consider using a security app that can detect malicious links</li>
+        </ul>
+        
+        <p>By staying informed and practicing these safety measures, you can enjoy the convenience of QR codes while minimizing potential risks.</p>
+        
+        <div id="retake-section" class="hidden">
+            <button class="btn" id="retake-survey">Take a follow-up survey</button>
+        </div>
+    </div>
+
+</body>
+</html>
